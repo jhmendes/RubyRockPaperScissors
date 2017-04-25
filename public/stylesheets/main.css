@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-image: url(https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2016/07/programming-796x398.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game {
+  background-color: rgba(122, 243, 249, .9);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: 'Days One', sans-serif;
+  font-size: 50px;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  text-shadow: 0 1px 0 #ccc,
+             0 2px 0 #c9c9c9,
+             0 3px 0 #bbb,
+             0 4px 0 #b9b9b9,
+             0 5px 0 #aaa,
+             0 6px 1px rgba(0,0,0,.1),
+             0 0 5px rgba(0,0,0,.1),
+             0 1px 3px rgba(0,0,0,.3),
+             0 3px 5px rgba(0,0,0,.2),
+             0 5px 10px rgba(0,0,0,.25),
+             0 10px 10px rgba(0,0,0,.2),
+             0 20px 20px rgba(0,0,0,.15);
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+form {
+  margin: 40px;
+  padding: 40px;
+}
+
+#winner {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    width: 80%;
+    margin: auto;
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+}

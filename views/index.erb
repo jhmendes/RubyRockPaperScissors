@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+  </head>
+
+  <body>
+
+    <div class="game">
+    <h1>Rock-Paper-Scissors!</h1>
+
+        <h3><%= session[:game_message]%></h3>
+        <h3>Your Score: <%= session[:playerscore] %></h3>
+        <h3>Computer Score: <%= session[:computerscore] %></h3>
+
+        <h3>Choose Your Hand:</h3>
+
+        <form action="/choose" method="post">
+          <input type="submit" value="Rock" name="choice">
+          <input type="submit" value="Paper" name="choice">
+          <input type="submit" value="Scissors" name="choice">
+        </form>
+
+      </div>
+  </body>
+</html>
